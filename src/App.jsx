@@ -82,6 +82,60 @@ const program = [
     ],
   },
   {
+    day: "Séance D",
+    tag: "Explosivité jambes · Breakdance",
+    color: "#FF3CAC",
+    blocks: [
+      {
+        title: "Échauffement dynamique",
+        duration: "10 min",
+        exercises: [
+          { name: "Sauts à la corde ou jumping jacks", sets: null, reps: "3 min", note: "" },
+          { name: "Leg swings avant/arrière + latéraux", sets: "2×", reps: "15 reps / côté", note: "" },
+          { name: "Squat bodyweight lent", sets: "2×", reps: "10 reps", note: "Descente 3 sec, montée explosive" },
+        ],
+      },
+      {
+        title: "Puissance — Sauts & Réactivité",
+        duration: "20 min",
+        exercises: [
+          { name: "Box jump", sets: "5×", reps: "5 reps", note: "Atterrissage silencieux, genoux fléchis" },
+          { name: "Broad jump (saut en longueur debout)", sets: "5×", reps: "4 reps", note: "Max distance, repos 45 sec" },
+          { name: "Depth drop → jump immédiat", sets: "4×", reps: "5 reps", note: "Contact sol < 0.2 sec, rebond maximal" },
+          { name: "Lateral bound (skater jumps)", sets: "4×", reps: "8 reps / côté", note: "Push latéral explosif, stabiliser l'atterrissage" },
+        ],
+      },
+      {
+        title: "Breakdance — Footwork & Power moves",
+        duration: "20 min",
+        exercises: [
+          { name: "CC (6-step) continu", sets: "5×", reps: "30 sec", note: "Fluidité + accélération progressive" },
+          { name: "Coffeegrinder (cancan) bas", sets: "4×", reps: "10 tours", note: "Genoux bas, push jambe tendue fort" },
+          { name: "Freeze sur 1 main — entrée depuis CC", sets: "6×", reps: "hold 3 sec", note: "Engage les fessiers et core pour stabiliser" },
+          { name: "Baby freeze → kick-out enchaîné", sets: "4×", reps: "5 cycles", note: "Extension jambe complète, explosif" },
+        ],
+      },
+      {
+        title: "Force excentrique & Gainage bas",
+        duration: "15 min",
+        exercises: [
+          { name: "Bulgarian split squat excentrique", sets: "3×", reps: "6 reps / côté", note: "Descente en 4 sec, montée normale" },
+          { name: "Nordic curl excentrique", sets: "3×", reps: "5 reps", note: "Résiste à la descente, aide à la remontée" },
+          { name: "Wall sit", sets: "3×", reps: "45 sec", note: "90° strict, push les pieds dans le sol" },
+          { name: "Calf raises lestés", sets: "3×", reps: "15 reps", note: "Full amplitude, pause 1 sec en haut" },
+        ],
+      },
+      {
+        title: "Récupération",
+        duration: "5 min",
+        exercises: [
+          { name: "Étirement quadriceps + fléchisseurs", sets: null, reps: "60 sec / côté", note: "" },
+          { name: "Pigeon pose", sets: null, reps: "90 sec / côté", note: "" },
+        ],
+      },
+    ],
+  },
+  {
     day: "Séance C",
     tag: "Skill + Mobilité active",
     color: "#4AC9F0",
